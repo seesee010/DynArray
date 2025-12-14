@@ -190,4 +190,5 @@ bool dynarray_clear(DynArray *array, void *value) {
     for (size_t i = 0; i < array->length; i++) {
         dynarray_set(array, i, value);
     }
+    return true;
 }
