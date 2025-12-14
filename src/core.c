@@ -1,3 +1,11 @@
+/*
+ * DynArray - A small dynamic array library in C
+ * Copyright (C) 2025 seesee010
+ *
+ * you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License 2.0
+ */
+
 // core.c
 #include "../dynarray.h"
 
