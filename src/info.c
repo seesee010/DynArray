@@ -12,6 +12,14 @@ size_t dynarray_length(DynArray *array) {
     return array->length;
 }
 
-size_t dynarray_totalCapacity(DynArray *array) {
+size_t dynarray_capacity(DynArray *array) {
     return array->capacity;
+}
+
+size_t dynarray_elementSize(DynArray *array) {
+    return array->element_size;
+}
+
+void *dynarray_data(DynArray *array) {
+    return array->data;
 }

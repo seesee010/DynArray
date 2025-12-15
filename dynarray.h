@@ -68,4 +68,6 @@ bool dynarray_set(DynArray *array, size_t index, void *value);
 // ========================
 
 size_t dynarray_length(DynArray *array);
-size_t dynarray_totalArrSize(DynArray *array);
+size_t dynarray_capacity(DynArray *array);
+size_t dynarray_elementSize(DynArray *array);
+void *dynarray_data(DynArray *array);
