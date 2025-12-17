@@ -167,8 +167,6 @@ bool dynarray_insert(DynArray *array, size_t index, void *value) {
         }
     }
 
-    array->capacity *= 2;
-
     // shift all data after and index += 1
     size_t length_for = array->length;
     for (size_t i = length_for; i > index; i--) {

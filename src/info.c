@@ -23,3 +23,7 @@ size_t dynarray_elementSize(DynArray *array) {
 void *dynarray_data(DynArray *array) {
     return array->data;
 }
+
+size_t size(DynArray *array) {
+    return array->length * array->element_size;
+}
