@@ -71,3 +71,4 @@ size_t dynarray_length(DynArray *array);
 size_t dynarray_capacity(DynArray *array);
 size_t dynarray_elementSize(DynArray *array);
 void *dynarray_data(DynArray *array);
+size_t size(DynArray *array);
